@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Image Source</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        img {
+            width: 300px;
+            height: 200px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>გადაირჩიეთ ფოტო</h2>
+
+    <img id="image" src="https://via.placeholder.com/300x200?text=Image+1" alt="Image" />
+
+    <div>
+        <button onclick="document.getElementById('image').src=''">ფოტო 1</button>
+        <button onclick="document.getElementById('image').src=''">ფოტო 2</button>
+        <button onclick="document.getElementById('image').src=''">ფოტო 3</button>
+    </div>
+
+</body>
+</html>
